@@ -2,116 +2,66 @@ anychart.onDocumentReady(function () {
   let data = {
     nodes: [
       {
-        id: "kam oil",
-        title: "«ԿԱՄՕՅԼ» ՍՊԸ",
+        id: "titan oil",
+        title: "«Տիտան օյլ» ՍՊԸ",
         x: 0,
         y: 100,
         height: 40,
         fill: {
-          src: "https://i.ibb.co/J3fFwjn/comp.png"
+          src: "https://i.ibb.co/5njkYhQ/titan.jpg"
         }
       },
       {
-        id: "maxoil",
-        title: "«ՄԱՔՍՕՅԼ» ՍՊԸ",
-        x: 200,
-        y: 100,
-        height: 65,
-        fill: {
-          src: "https://i.ibb.co/0jwgZF8/maxoil.png"
-        }
-      },
-      {
-        id: "megaoil",
-        title: "«ՄԵԳԱ ՕՅԼ» ՍՊԸ",
-        x: 400,
+        id: "titan petrol",
+        title: "«Տիտան պետրոլ» ՍՊԸ",
+        x: 300,
         y: 100,
         height: 40,
         fill: {
-          src: "https://i.ibb.co/J3fFwjn/comp.png"
+          src: "https://i.ibb.co/5njkYhQ/titan.jpg"
         }
       },
       {
-        id: "maxhur",
-        title: "«ՄԱՔՍ ՀՈՒՐ» ՍՊԸ",
-        x: 600,
-        y: 100,
-        height: 40,
-        fill: {
-          src: "https://i.ibb.co/J3fFwjn/comp.png"
-        }
-      },
-      {
-        id: "talin1",
-        title: "«ԹԱԼԻՆ 1» ՍՊԸ",
-        x: 750,
-        y: 280,
-        height: 40,
-        fill: {
-          src: "https://i.ibb.co/J3fFwjn/comp.png"
-        }
-      },
-      {
-        id: "kamo melkonyan",
-        title: "Կամո Մելքոնյան",
+        id: "vardan onanyan",
+        title: "Վարդան Օնանյան",
         x: 50,
         y: 400,
         height: 70,
         fill: {
-          src: "https://i.ibb.co/B3YpCbL/man.png"
+          src: "https://i.ibb.co/Y8SGxdv/vardanon.jpg"
         }
       },
       {
-        id: "harut pambukyan",
-        title: "Հարութ Փամբուկյան",
-        x: 450,
-        y: 500,
-        height: 70,
-        fill: {
-          src: "https://i.ibb.co/vs2xT0j/image.jpg"
-        }
-      },
-      {
-        id: "Rima Baghramyan",
-        title: "Ռիմա Բաղրամյան",
-        x: 400,
-        y: 250,
+        id: "togramajyan",
+        title: "Արթուր Տոգրամաջյան",
+        x: 550,
+        y: 400,
         height: 40,
         fill: {
-          src: "https://i.ibb.co/5sq1MBM/woman.png"
-        }
-      },
-      {
-        id: "Levon Hakobyan",
-        title: "Լևոն Հակոբյան",
-        x: 750,
-        y: 500,
-        height: 40,
-        fill: {
-          src: "https://i.ibb.co/B3YpCbL/man.png"
+          src: "https://i.ibb.co/Gn82RCj/artur.jpg"
         }
       }
     ],
     edges: [
       {
-        from: "kam oil",
-        to: "kamo melkonyan",
+        from: "vardan onanyan",
+        to: "titan oil",
         title: "Սեփականատեր"
       },
       {
-        from: "maxoil",
-        to: "kamo melkonyan",
-        title: "Տնօրեն"
+        from: "vardan onanyan",
+        to: "titan petrol",
+        title: "Սեփականատեր"
       },
       {
-        from: "kamo melkonyan",
-        to: "talin1",
-        title: "Տնօրեն"
+        from: "togramajyan",
+        to: "titan oil",
+        title: " Բաժնետեր 2015-2019"
       },
 
       {
-        from: "maxoil",
-        to: "harut pambukyan",
+        from: "togramajyan",
+        to: "titan petrol",
         title: "Սեփականատեր"
       },
       {
@@ -150,9 +100,7 @@ anychart.onDocumentReady(function () {
   // create chart from loaded data
   var chart = anychart.graph(data);
   // set title
-  chart.title(
-    "«Կամօյլ» և «Մաքս օյլ» ՍՊԸ-ները կապված են ԱԺ նախկին պատգամավոր Հարութ Փամբուկյանի հետ "
-  );
+  chart.title("«Տիտան օյլ» ՍՊԸ-ի և «Տիտան պետրոլ» ՍՊԸ-ի բաժնետերերը");
   // access nodes
   var nodes = chart.nodes();
   chart.layout().type("fixed");
