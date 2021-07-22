@@ -57,18 +57,18 @@ anychart.onDocumentReady(function () {
       {
         from: "sanasarbeglaryan",
         to: "flesh",
-        title: "Տնօրեն"
+        title: "Բաժնետեր, տնօրեն"
       },
       {
         from: "Barsegh Beglaryan",
         to: "flesh",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
 
       {
         from: "Barsegh Beglaryan",
         to: "fleshpetrol",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
       {
         from: "Barsegh Beglaryan",
@@ -83,7 +83,7 @@ anychart.onDocumentReady(function () {
       {
         from: "sanasarbeglaryan",
         to: "Barsegh Beglaryan",
-        title: "Հայր"
+        title: "Որդի"
       }
     ]
   };

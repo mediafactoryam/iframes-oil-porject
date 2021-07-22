@@ -16,7 +16,7 @@ anychart.onDocumentReady(function () {
         id: "maxoil",
         title: "«ՄԱՔՍՕՅԼ» ՍՊԸ",
         collapse: true,
-        x: 200,
+        x: 200, 
         y: 100,
         height: 65,
         fill: {
