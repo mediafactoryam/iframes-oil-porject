@@ -11,7 +11,7 @@ anychart.onDocumentReady(function () {
           src: "https://i.ibb.co/x14wB6F/ranoil.png"
         }
       },
-       {
+      {
         id: "silkoncern",
         title: "«Սիլ կապիտալ քոնսթրաքշն»",
         collapse: true,
@@ -97,11 +97,15 @@ anychart.onDocumentReady(function () {
 
   // set the stroke of nodes
   nodes.normal().stroke(null);
-  nodes.hovered().stroke("#333333", 3);
-  nodes.selected().stroke("#333333", 3);
+  nodes.hovered().stroke("#20afa2", 3);
+  nodes.selected().stroke("#20afa2", 3);
   // enable labels of nodes
   chart.nodes().labels().enabled(true);
   chart.edges().labels().enabled(true);
+
+  chart.edges().normal().stroke("#20afa2", 2);
+  chart.edges().hovered().stroke("#20afa2", 3);
+  chart.edges().selected().stroke("#20afa2", 3);
 
   chart.tooltip().enabled(false);
 
