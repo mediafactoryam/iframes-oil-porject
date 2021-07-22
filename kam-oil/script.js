@@ -4,6 +4,7 @@ anychart.onDocumentReady(function () {
       {
         id: "kam oil",
         title: "«ԿԱՄՕՅԼ» ՍՊԸ",
+        collapse: true,
         x: 0,
         y: 100,
         height: 40,
@@ -14,6 +15,7 @@ anychart.onDocumentReady(function () {
       {
         id: "maxoil",
         title: "«ՄԱՔՍՕՅԼ» ՍՊԸ",
+        collapse: true,
         x: 200,
         y: 100,
         height: 65,
@@ -24,6 +26,7 @@ anychart.onDocumentReady(function () {
       {
         id: "megaoil",
         title: "«ՄԵԳԱ ՕՅԼ» ՍՊԸ",
+        collapse: true,
         x: 400,
         y: 100,
         height: 40,
@@ -34,6 +37,7 @@ anychart.onDocumentReady(function () {
       {
         id: "maxhur",
         title: "«ՄԱՔՍ ՀՈՒՐ» ՍՊԸ",
+        collapse: true,
         x: 600,
         y: 100,
         height: 40,
@@ -44,6 +48,7 @@ anychart.onDocumentReady(function () {
       {
         id: "talin1",
         title: "«ԹԱԼԻՆ 1» ՍՊԸ",
+        collapse: true,
         x: 750,
         y: 280,
         height: 40,
@@ -54,6 +59,7 @@ anychart.onDocumentReady(function () {
       {
         id: "kamo melkonyan",
         title: "Կամո Մելքոնյան",
+        collapse: true,
         x: 50,
         y: 400,
         height: 70,
@@ -64,6 +70,7 @@ anychart.onDocumentReady(function () {
       {
         id: "harut pambukyan",
         title: "Հարութ Փամբուկյան",
+        collapse: true,
         x: 450,
         y: 500,
         height: 70,
@@ -74,6 +81,7 @@ anychart.onDocumentReady(function () {
       {
         id: "Rima Baghramyan",
         title: "Ռիմա Բաղրամյան",
+        collapse: true,
         x: 400,
         y: 250,
         height: 40,
@@ -84,6 +92,7 @@ anychart.onDocumentReady(function () {
       {
         id: "Levon Hakobyan",
         title: "Լևոն Հակոբյան",
+        collapse: true,
         x: 750,
         y: 500,
         height: 40,
@@ -96,7 +105,7 @@ anychart.onDocumentReady(function () {
       {
         from: "kam oil",
         to: "kamo melkonyan",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
       {
         from: "maxoil",
@@ -112,12 +121,7 @@ anychart.onDocumentReady(function () {
       {
         from: "maxoil",
         to: "harut pambukyan",
-        title: "Սեփականատեր"
-      },
-      {
-        from: "kamo melkonyan",
-        to: "harut pambukyan",
-        title: "Բիզնես գործընկեր"
+        title: "Բաժնետեր"
       },
       {
         from: "Rima Baghramyan",
@@ -132,12 +136,12 @@ anychart.onDocumentReady(function () {
       {
         from: "harut pambukyan",
         to: "maxhur",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
       {
         from: "Levon Hakobyan",
         to: "maxhur",
-        title: "Տնօրեն"
+        title: "Տնօրեն(2004-2005)"
       },
       {
         from: "Levon Hakobyan",
