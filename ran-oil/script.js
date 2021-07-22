@@ -39,7 +39,7 @@ anychart.onDocumentReady(function () {
         y: 400,
         height: 40,
         fill: {
-          src: "https://i.ibb.co/8PK0cLt/grzo.jpg"
+          src: "https://i.ibb.co/nB7CLDX/Khachatur-Sukiasyan.jpg"
         }
       },
       {
@@ -85,6 +85,8 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
+  chart.interactivity(false)
+
   // set title
   chart.title("«Ռան-օյլ»ՍՊԸ-ն 2021 թվականին ձեռք է բերել խոշոր գործարար Խաչատուր Սուքիասյանը");
   // access nodes
