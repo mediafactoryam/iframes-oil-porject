@@ -11,12 +11,12 @@ anychart.onDocumentReady(function () {
           src: "https://i.ibb.co/x14wB6F/ranoil.png"
         }
       },
-      {
+       {
         id: "silkoncern",
-        title: "«Սիլ կապիտալ քոնսթրաքշն»",
+        title: "«Սիլ կոնցեռն»",
         collapse: true,
-        x: 700,
-        y: 100,
+        x: 300,
+        y: 200,
         height: 40,
         fill: {
           src: "https://i.ibb.co/Vq7972s/sil.png"
@@ -39,7 +39,7 @@ anychart.onDocumentReady(function () {
         y: 400,
         height: 40,
         fill: {
-          src: "https://i.ibb.co/nB7CLDX/Khachatur-Sukiasyan.jpg"
+          src: "https://i.ibb.co/0cpS7mw/Khachatur-Sukiasyan.jpg"
         }
       },
       {
@@ -66,8 +66,8 @@ anychart.onDocumentReady(function () {
       },
       {
         from: "grzo",
-        to: "megatrade",
-        title: "Բաժնետեր"
+        to: "silkoncern",
+        title: "«պատկանում է ընտանիքին»"
       },
 
       {
@@ -76,9 +76,9 @@ anychart.onDocumentReady(function () {
         title: "Բաժնետեր"
       },
       {
-        from: "tigranbadalyan",
+        from: "ranoil",
         to: "silkoncern",
-        title: "Բաժնետեր"
+        title: "գնել է «Ռան-օյլը»"
       }
     ]
   };
