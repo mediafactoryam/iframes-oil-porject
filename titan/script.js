@@ -3,7 +3,7 @@ anychart.onDocumentReady(function () {
     nodes: [
       {
         id: "titan oil",
-        title: "«Տիտան օյլ» ՍՊԸ",
+        title: "«Տիտան օիլ» ՍՊԸ",
         x: 0,
         y: 100,
         height: 40,
@@ -46,12 +46,12 @@ anychart.onDocumentReady(function () {
       {
         from: "vardan onanyan",
         to: "titan oil",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
       {
         from: "vardan onanyan",
         to: "titan petrol",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր(2014-2019)"
       },
       {
         from: "togramajyan",
@@ -62,7 +62,7 @@ anychart.onDocumentReady(function () {
       {
         from: "togramajyan",
         to: "titan petrol",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       },
       {
         from: "kamo melkonyan",
