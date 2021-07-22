@@ -85,7 +85,8 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
-  chart.interactivity(false)
+  //chart.interactivity(false)
+  chart.interactivity().zoomOnMouseWheel(false);
 
   // set title
   chart.title("«Ռան-օյլ»ՍՊԸ-ն 2021 թվականին ձեռք է բերել խոշոր գործարար Խաչատուր Սուքիասյանը");

@@ -99,7 +99,8 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
-  chart.interactivity(false)
+  chart.interactivity().zoomOnMouseWheel(false);
+  
   // set title
   chart.title("«Տիտան օյլ» ՍՊԸ-ի և «Տիտան պետրոլ» ՍՊԸ-ի բաժնետերերը");
   // access nodes

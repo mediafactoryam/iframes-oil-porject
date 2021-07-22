@@ -72,7 +72,8 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
-  chart.interactivity(false)
+  chart.interactivity().zoomOnMouseWheel(false);
+  
   // set title
   chart.title(
     "«Սիփիէս օյլ» և «Սիփիէս օյլ քորփորեյշն» ՍՊԸ-ները պատկանում են խոշոր գործարար, ռուսական հատուկ ծառայությունների նախկին գեներալ Աշոտ Սալազարյանին"
