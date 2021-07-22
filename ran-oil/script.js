@@ -120,4 +120,9 @@ anychart.onDocumentReady(function () {
   chart.edges().labels().fontSize(10);
   // draw chart
   chart.container("container").draw();
+
+  window.addEventListener('mousewheel', function (event) {
+    event.stopImmediatePropagation();
+  }, true);
+  
 });

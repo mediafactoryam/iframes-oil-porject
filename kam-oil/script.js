@@ -16,7 +16,7 @@ anychart.onDocumentReady(function () {
         id: "maxoil",
         title: "«ՄԱՔՍՕՅԼ» ՍՊԸ",
         collapse: true,
-        x: 200, 
+        x: 200,
         y: 100,
         height: 65,
         fill: {
@@ -154,7 +154,7 @@ anychart.onDocumentReady(function () {
   // create chart from loaded data
   var chart = anychart.graph(data);
   chart.interactivity().zoomOnMouseWheel(false);
-  
+
   // set title
   chart.title(
     "«Կամօյլ» և «Մաքս օյլ» ՍՊԸ-ները կապված են ԱԺ նախկին պատգամավոր Հարութ Փամբուկյանի հետ "
@@ -189,4 +189,10 @@ anychart.onDocumentReady(function () {
   chart.edges().labels().fontSize(10);
   // draw chart
   chart.container("container").draw();
+
+
+  window.addEventListener('mousewheel', function (event) {
+    event.stopImmediatePropagation();
+  }, true);
+
 });
