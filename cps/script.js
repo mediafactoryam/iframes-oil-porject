@@ -1,5 +1,5 @@
 anychart.onDocumentReady(function () {
-  let data = {
+  let data =  {
     nodes: [
       {
         id: "cps oil",
@@ -49,7 +49,7 @@ anychart.onDocumentReady(function () {
       {
         from: "cps oil",
         to: "Ashot Salazaryan",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր(2017-2019)"
       },
       {
         from: "cps oil",
@@ -65,7 +65,7 @@ anychart.onDocumentReady(function () {
       {
         from: "cps oil corp",
         to: "Ashot Salazaryan",
-        title: "Սեփականատեր"
+        title: "Բաժնետեր"
       }
     ]
   };
