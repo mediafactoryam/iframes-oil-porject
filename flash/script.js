@@ -90,6 +90,7 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
+  chart.interactivity(false)
   // set title
   chart.title(
     "«Ֆլեշ» և «Ֆլեշ Պետրոլ» ՍՊԸ-ները պատկանում են խոշոր գործարար Բարսեղ Բեգլարյանին, որը Սերժ Սարգսյանի մտերիմներից է"

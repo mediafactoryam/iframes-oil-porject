@@ -149,6 +149,7 @@ anychart.onDocumentReady(function () {
 
   // create chart from loaded data
   var chart = anychart.graph(data);
+  chart.interactivity(false)
   // set title
   chart.title(
     "«Կամօյլ» և «Մաքս օյլ» ՍՊԸ-ները կապված են ԱԺ նախկին պատգամավոր Հարութ Փամբուկյանի հետ "
